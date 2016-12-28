@@ -1,10 +1,10 @@
-<div class="col-md-5 tableDiv" style="padding:0px">
+<div class="col-md-5 tableDiv">
   <div class="title">
-    <div class="col-md-offset-4 col-md-2 col-lg-3" style="padding:0px;"><h4><b>Total Cost</b></h4></div>
-    <div class="col-md-2 col-lg-3"style="padding:0px;"><h4><b>Cost/Case</b></h4></div>
-    <div class="col-md-2 col-lg-2 text-left" style="padding:0px;margin-left:-8px;"><h4><b>Price/Case</b></h4></div>
+    <div class="col-md-offset-4 col-md-2 col-lg-3 zeroPading"><h4><b>Total Cost</b></h4></div>
+    <div class="col-md-2 col-lg-3 zeroPading"><h4><b>Cost/Case</b></h4></div>
+    <div class="col-md-2 col-lg-2 textLeft zeroPading"><h4><b>Price/Case</b></h4></div>
   </div>
-  <div class="table table-responsive" style="padding:0px;margin-bottom:0px">
+  <div class="table table-responsive zero-padd-margin">
       <table>
         <tbody class="outerTable" ng-repeat="eachaspect in revenueDetails">
               <tr data-toggle="collapse" data-target="#demo1" class="accordion-toggle">
@@ -16,10 +16,10 @@
             <tr>
                 <td colspan="12" class="hiddenRow">
                   <div class="accordian-body collapse" id="demo1">
-                    <table class="table col-md-12 innerTable">
+                    <table class="col-md-12 innerTable">
                           <tbody ng-repeat="indetailinfo in eachaspect.economicAspects">
                             <tr>
-                              <td class="col-md-3" style="padding-left:20px">{{indetailinfo.section}}</td>
+                              <td class="col-md-3">{{indetailinfo.section}}</td>
                               <td class="col-md-2">{{indetailinfo.totalcost}}</td>
                               <td class="col-md-2" >{{indetailinfo.cost}}</td>
                               <td class="col-md-2">{{indetailinfo.price}}</td>

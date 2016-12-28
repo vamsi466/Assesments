@@ -1,9 +1,16 @@
+
+
+// declaring all the required colors with variables
+
 @color1:rgb(243,243,243);
 @color2:rgb(231,231,231);
 @collapseButtonColor:rgb(132,184,74);
 @farmerOrProductionBarData:rgb(171,171,171);
 @navborder : rgb(136,177,85);
 @aspectsCostColor:rgb(255,194,93);
+
+
+//font family used in this
 @font-face {
     font-family: FiraSans-Regular;
     src: url("fira-sans/FiraSans-Regular.ttf") format('truetype');
@@ -13,9 +20,7 @@
     font-family: FiraSans-Regular;
 }
 
-.container-fluid{
-  padding:0px !important;
-}
+//designing the logobar
 .logoBar{
   height:100px;
   background: white;
@@ -26,6 +31,9 @@
     width:130px;
     height:80px;
     margin-top:10px;
+  }
+  .marginTopInput{
+    margin-top:17px;
   }
   input{
     // width:325px!important;
@@ -44,13 +52,16 @@
       color:@color2;
     }
   }
-  .userIcon{
-    margin-top:-3px !important;
-    margin-left:5px;
-    background-color: @color2;
-    border-radius: 50%;
-    border:none;
-    padding:10px;
+  .userIconMargin{
+    margin-top:8px;
+    .userIcon{
+      margin-top:-3px !important;
+      margin-left:5px;
+      background-color: @color2;
+      border-radius: 50%;
+      border:none;
+      padding:10px;
+    }
   }
 }
 .farmerOrProductionBar{
@@ -134,10 +145,14 @@
 }
 
 .tableDiv{
+  padding:0px !important;
   margin-left:15px;
   height:auto;
   width:48%;
-  border:1px solid rgb(220,220,220);
+  border-top:  1px solid rgb(220,220,220);
+  border-right: 1px solid rgb(220,220,220);
+  border-bottom: none!important;
+  border-left:1px solid rgb(220,220,220);
   float:left !important;
   .title{
     width:100%;
@@ -146,6 +161,9 @@
     background-color: rgb(247,247,247);
     .col-md-offset{
       padding:0px !important;
+    }
+    .textLeft{
+      margin-left:-8px;
     }
     h4{
       padding:0px!important;
@@ -195,8 +213,8 @@
     }
   }
     .innerTable{
+      border-bottom: 1px solid rgb(220,220,220)!important;
       tr{
-        border-bottom: none !important;
         padding:6px !important;
         font-size:11px;
         color:rgb(171,171,171);
@@ -233,4 +251,13 @@
       margin:0px!important;
     }
   }
+}
+
+.zero-padd-margin{
+  margin-bottom: 0px!important;
+  padding:0px;
+}
+
+.zeroPading{
+    padding:0px !important;
 }

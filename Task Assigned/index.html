@@ -4,15 +4,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!--including all the files required css-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.1/nv.d3.min.css"/> -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="Assets/css/font-awesome.css">
     <link rel="stylesheet" href="Assets/css/font-awesome.min.css">
 		<link rel="stylesheet" href="CSS/novoCloud.css">
+
 	</head>
   <body ng-app="novoCloud">
     <!--Logo bar-->
-    <div class="container-fluid">
+    <div class="container-fluid zeroPading">
 			<div >
 			  <logo></logo>
 			</div>
@@ -27,16 +29,20 @@
 			<div>
 			  <revenueinfo></revenueinfo>
 			</div>
-			<div ng-controller="revenueTable">
+			<div>
 			  <tableandgraph></tableandgraph>
 			</div>
-			<!-- <div class="col-md-12 col-xs-12 col-sm-12 top-buffer">
-			  <personaldetails></personaldetails>
-			</div> -->
 	</div>
 		<script src="JS/angular.min.js"></script>
+		<script src="https://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
 		<script src="JS/canvasjs.min.js"></script>
-		<script src="JS/novoCloud.js"></script>
+		<!-- <script src="JS/d3.v3.min.js" charset="utf-8"></script>
+		<script src="JS/nv.d3.js"></script>
+		<script src="JS/angular-nvd3.min.js"></script> -->
+		<script src="JS/novoCloudModule.js"></script>
 		<script src="JS/novoCloudDirectives.js"></script>
+		<script src="JS/routing.js"></script>
+		<script src="JS/novoCloudServicesandControllers.js"></script>
+
   </body>
 </html>
