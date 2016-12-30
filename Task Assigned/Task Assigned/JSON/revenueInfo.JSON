@@ -1,0 +1,10 @@
+{
+  "Data": [
+				{  "cost":"-13.42%", "aspect": "ROI"},
+				{  "cost": "5415", "aspect": "Total Cases"},
+				{  "cost": "$484,058.89", "aspect": "Total Sales"},
+				{  "cost": "$481,649.50", "aspect": "Total Cost/lb"},
+				{  "cost": "$2.15", "aspect": "Price/lb"},
+        {  "cost": "$2.29s", "aspect": "Growing Cost"}
+      ]
+}

@@ -1,0 +1,30 @@
+<div sidenav>
+  <div class="farmerOrProductionBar col-md-12 zeroPading">
+    <button class="pull-left collapseButton" ng-click="openNav()">
+      <i class="fa fa-align-justify fa-2x" title="Align Justify"></i>
+    </button>
+    <div class="dataSpace">
+      <div class="data col-md-4">
+        <span class="upperTextLine">
+          Farmer / Production
+        </span><br>
+        <span class="lowerTextLine">
+          ROI
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="sidenav" ng-controller = "sideNavCtrl">
+    <!--<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>-->
+    <div class="col-md-2 content-part zeroPading">
+      
+      <div class="list-heading">
+        <a>Farmer Menu <span class="pull-right"><i class="fa fa-align-justify menu" ng-click="closeNav()" aria-hidden="true"></i></span></a>
+      </div>
+      <ul>
+      <li class="list" ng-repeat = "categories in sideNavElements">{{categories}}</li>
+    </ul>
+    </div>
+  </div>
+</div>

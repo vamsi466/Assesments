@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+	<head >
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--including all the files required css-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/Font Awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="Assets/Font Awesome/css/font-awesome.min.css">
+
+		<!--including CSS file -->
+		<link rel="stylesheet" href="CSS/novoCloud.css">
+
+	</head>
+
+	<!--ngApp declared-->
+  <body ng-app="novoCloud">
+    <div class="container-fluid zeroPading">
+			<!--view display-->
+			<ui-view></ui-view>
+		</div>
+
+		<!--Including all Librrary Files-->
+		<script src="JS/libraryFiles/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+		<script src="JS/libraryFiles/canvasjs.min.js"></script>
+
+		<!--including module-->
+		<script src="JS/novoCloudModule.js"></script>
+
+		<!--Rendering routingJS-->
+		<script src="JS/Routing/routing.js"></script>
+
+		<!--Rendering all controllers-->
+		<script src="JS/Controller/graphController.js"></script>
+		<script src="JS/Controller/revenueController.js"></script>
+		<script src="JS/Controller/mainViewCtrl.js"></script>
+		<script src="JS/Controller/revenueInfoDetails.js"></script>
+		<script src="JS/Controller/sidenavController.js"></script>
+
+
+		<!--service calls-->
+		<script src="JS/Service/revenueService.js"></script>
+
+		<!--directives included-->
+		<script src="JS/Directives/collapsebuttondirective.js"></script>
+		<script src="JS/Directives/itemsdirective.js"></script>
+		<script src="JS/Directives/logobardirective.js"></script>
+		<script src="JS/Directives/revenueInfodirective.js"></script>
+		<script src="JS/Directives/revenueRepresentationdirective.js"></script>
+		<script src="JS/Directives/tableDirective.js"></script>
+		<script src="JS/Directives/sidenavDirective.js"></script>
+  </body>
+</html>

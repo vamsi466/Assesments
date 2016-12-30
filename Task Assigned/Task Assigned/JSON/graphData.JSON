@@ -1,0 +1,9 @@
+{
+  "Data": [
+				{  "y": 46615.06, "indexlabel": "Harvest Cost","color":"rgb(196,69,62)" },
+				{  "y": 2740.00, "indexlabel": "Transport Cost","color":"rgb(126,94,133)" },
+				{  "y": 3519.75, "indexlabel": "Cooling Cost","color":"rgb(134,182,0)" },
+				{  "y": 5658.75, "indexlabel": "Packing Cost","color":"rgb(169,209,206)"},
+				{  "y": 20576.00, "indexlabel": "Growing Cost","color":"rgb(47,158,175)" }
+      ]
+}
